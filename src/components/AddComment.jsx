@@ -8,17 +8,6 @@ const AddComment = (props) => {
     elementId: props.asin,
   })
 
-  // componentDidUpdate(prevProps) {
-  //   if (prevProps.asin !== this.props.asin) {
-  //     this.setState({
-  //       comment: {
-  //         ...this.state.comment,
-  //         elementId: this.props.asin,
-  //       },
-  //     })
-  //   }
-  // }
-
   const sendComment = async (e) => {
     e.preventDefault()
     try {
