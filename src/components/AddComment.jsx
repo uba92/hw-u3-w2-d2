@@ -15,7 +15,7 @@ const AddComment = (props) => {
         'https://striveschool-api.herokuapp.com/api/comments',
         {
           method: 'POST',
-          body: JSON.stringify(this.state.comment),
+          body: JSON.stringify(comment),
           headers: {
             'Content-type': 'application/json',
             Authorization:
